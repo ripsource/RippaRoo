@@ -9,6 +9,7 @@ For general knowledge of how to deploy packages and the requirements to run this
 Helpful resources for learning Scrypto can be found on the Radix Discord under the "Developers" chat groups, in the "dev-resources" channel. Beem's message on 19/04/2023 provides the best concise list of resources that I've been using to learn Scrypto.
 
 
+-----------------
 
 Boiler Plate Intructions for SvelteKit 
 
