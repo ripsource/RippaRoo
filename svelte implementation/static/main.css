@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'w95faregular';
+    src: url('w95fa-webfont.woff2') format('woff2'),
+         url('w95fa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p, h1, span {
+	font-family: w95faregular;
+}
+html, body {
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	
+	font-family: w95faregular;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
+
+}
+
+body {
+	color: #333;
+	margin: 0;
+
+	box-sizing: border-box;
+	font-family: w95faregular;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
+	
+	
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+label {
+	margin: 0;
+	font-weight: 100;
+}
+
+#filt, #filtS2, #filtS3, #filtS4, #filtS5, #filtS6, #filtS7
+{
+
+ font-weight:bold;
+}
+.highlight:hover {
+    background: rgba(82, 217, 251, 0.148);
+	transform:scale(1.02)
+}
+
+.filtercheck {
+	background: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+.filtercheck:checked {
+	color: grey;
+	background: grey;
+}
+
+input[type="checkbox"].filtercheck:checked {
+	border-color: rgb(45, 45, 45);
+  background-color:rgb(37, 37, 37);
+}
+
+
+body {
+	
+	padding:0;
+	
+	
+}
+
+body, html {
+	position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    border: none;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox]
+{
+    cursor: pointer;
+}
+
+:focus:not(:focus-visible) 
+{
+    outline: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+html {
+        scroll-behavior: smooth;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+}
+
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+
+
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+
+
+img {
+    display: block; 
+    max-width: 100% 
+}
+
